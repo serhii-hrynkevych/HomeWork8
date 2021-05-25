@@ -10,7 +10,8 @@ public class Trainer extends Worker{
     Trainer() {}
 
     public void addWorkout(String nameTrainer, String nameClient, int numberAddWorkoutInt) {
-        Client client = new Client(nameTrainer, numberAddWorkoutInt);
-
+        Client client = new Client();
+        client.workout.put(nameTrainer, numberAddWorkoutInt);
     }
+
 }

@@ -69,7 +69,10 @@ public class Admin extends People{
         }
     }
 
-    public void addMasseur() {}
+    public void outWorkout() {
+        Client client = new Client();
+        System.out.println(client.workout.toString());
+    }
 
 
 

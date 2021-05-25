@@ -10,7 +10,6 @@ public class Client extends People{
         name = newName;
     }
 
-    Client(String nameTrainer, int numberAddWorkoutInt) {
+    Client() {}
 
-    }
 }

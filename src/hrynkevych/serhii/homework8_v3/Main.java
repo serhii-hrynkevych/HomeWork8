@@ -30,6 +30,9 @@ public class Main {
             if (input.equals("Добавить тренеровку")) {
                 addWorkout();
             }
+            if (input.equals("Отобразить тренеровки")) {
+                admin.outWorkout();
+            }
         }
     }
 
