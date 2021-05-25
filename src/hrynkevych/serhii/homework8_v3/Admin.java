@@ -55,7 +55,7 @@ public class Admin extends People{
         //Trainer trainer = new Trainer();
 
         for (Worker w : workers) {
-            if (w.name.equals(nameTrainer) && w.role.equals("тренер")) {
+            if (w.name.equals(nameTrainer)) {
                 for (Client c : clients) {
                     if (c.name.equals(nameClient)) {
                         ((Trainer)w).addWorkout(nameTrainer,nameClient, numberAddWorkoutInt);
